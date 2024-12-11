@@ -2,7 +2,7 @@ import s from "./Contact.module.css";
 import { IoPerson } from "react-icons/io5";
 import { FaPhone } from "react-icons/fa6";
 
-const Contact = ({ name, number, id, onDelete }) => {
+const Contact = ({ name, number, id }) => {
   return (
     <div className={s.wrapper}>
       <div className={s.wrapFlex}>
